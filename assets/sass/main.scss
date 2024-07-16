@@ -1,13 +1,15 @@
 @charset "UTF-8";
 //Abstracts
-
+@import 'abstracts/variables';
 //Vendors
 @import 'vendors/bootstrap';
 //Base
-
+@import 'base/fonts';
 //Layout
-
+@import 'layout/carousel';
 //Components
+@import 'components/cards',
+'components/modal';
 
 //Pages
 

@@ -1,0 +1,36 @@
+.col-12 {
+
+    .carousel {
+
+        height: 500px;
+
+
+        .carousel-item {
+            height: 500px;
+
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media(max-width:576px) {
+    .col-sm-12 {
+
+        .carousel {
+
+            height: 300px;
+
+
+            .carousel-item {
+                height: 300px;
+
+                img {
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+}
